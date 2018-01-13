@@ -53,9 +53,7 @@ console.log(removeOddValues(obj2));
       //delete object[key];
     }
   }
-
   return new_obj;
-
 }
 var obj1 = {
   a: 1,
