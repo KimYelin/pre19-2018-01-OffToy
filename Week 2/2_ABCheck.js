@@ -23,7 +23,7 @@ function ABCheck(str) {
 
   //내가 시도해본 것 1 => 틀림
   // var str2 = str.toLowerCase();
-  // for(var i of str2){
+  // for(var i of str2){//여기서 i가 숫자가 아니라 문자임. 그래서 str2[0]이 아니라 str2[l],str2[a] 이렇게 돼 말이 안됨.
   //   if(str2[i] === 'a' && str2[i+4] === 'b')
   //    return true;
   // }
