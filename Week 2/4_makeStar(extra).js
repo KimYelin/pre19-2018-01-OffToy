@@ -47,13 +47,13 @@ function makeStar(n) {
 
 //이건 제대로 출력 됨
 /*function makeStar(n) {
-  for (var i = 1; i <= n; i += 1) {
-    if (i === Number(n)) {
-      console.log('*'.repeat(2 * n - 1));
-    } else {
+  for (var i = 1; i <= n; i += 1) {//i => 레벨, n => 입력(최종 아래 레벨)
+    if (i === Number(n)) {// 레벨이 입력된 n과 같다면
+      console.log('*'.repeat(2 * n - 1));// 마지막 레벨 출력
+    } else {//그렇지 않으면 1부터 n-1 레벨까지 출력
       var stars = ' '.repeat(n - i) + '*';
       console.log(i === 1 ? stars : stars + ' '.repeat(2 * i - 3) + '*');
-    }
+    }// 레벨이 1? 맞으면 stars출력: 아니면 ~2i-3(홀수라 2i-1인데 레벨이 1부터 시작해 -3)~ 출력
   }
 }*/
 
